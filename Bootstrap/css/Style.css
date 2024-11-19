@@ -1,0 +1,95 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-bottom: 100px;
+}
+.migas_de_pan {
+  margin-left: 37px;
+  font-size: 14px;
+}
+.div_index {
+  /*text-align: justify;*/
+}
+.encabezado_tabla {
+  background-color: #00355A;
+  color: white;
+  text-align: center;
+}
+.cuerpo_tabla {
+  background-color: white;
+}
+.lista_titulos {
+  list-style: none;
+  width: 100%;
+  margin-left: -20px;
+}
+.lista_sin_estilo {
+  list-style: none;
+}
+.linea_asignatura:before {
+  content: "–"; /* en dash here */
+  position: absolute;
+  margin-left: -1.1em;
+}
+.lista_contacto {
+  margin-left: 10px;
+}
+.lista_contacto dd {
+  margin-left: 15px;
+}
+.lista_definicion {
+  list-style: none;
+  margin-top:-20px;
+  width: 100%;
+  padding-left: 25px;
+  display: inline;
+  text-align: left;
+}
+.lista_busqueda {
+  margin-left: -35px;
+}
+.lista_profesores {
+  font-size: 14px;
+}
+.titulo1 {
+  font-size: 2em;
+}
+.titulo2 {
+  font-size: 1.5em;
+}
+.titulo_profesores {
+  margin-left: 25px;
+}
+.lista_asig_prof {
+  list-style: none;
+  width: 100%;
+  margin-left: -20px;
+}
+.lista_prof_asig {
+  list-style: none;
+  width: 100%;
+  margin-left: 20px;
+}
+.atributo {
+  margin-left: 10px;
+  display: inline;
+}
+.atributo_2 {
+  margin-left: 10px;
+  display: inline-table;
+}
+.atributo::before {
+  content: "\A";
+  white-space: pre;
+  margin-left: 10px;
+}
+.footer {
+  background-color: #00355A/*#deddd8*/;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+}
